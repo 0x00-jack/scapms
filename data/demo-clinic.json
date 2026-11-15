@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "patients": [
+    {
+      "id": 1004, "name": "Amara Okafor", "age": 22, "contact": "amara@example.com",
+      "category": "General", "detail": "Routine health check",
+      "appointments": [
+        {"id": 5001, "start": "2026-11-06T11:00:00Z", "service": "General consultation",
+         "clinician": "Dr Morgan", "status": "Completed", "note": "Review complete."},
+        {"id": 5002, "start": "2026-11-08T08:10:00Z", "service": "Nursing care",
+         "clinician": "Nurse Ellis", "status": "Completed", "note": "Observations recorded."},
+        {"id": 5003, "start": "2026-11-08T14:00:00Z", "service": "Immunisation",
+         "clinician": "Nurse Ellis", "status": "Pending", "note": ""}
+      ]
+    },
+    {
+      "id": 1001, "name": "Daniel Mensah", "age": 20, "contact": "daniel@example.com",
+      "category": "Follow-up", "detail": "Review after initial consultation",
+      "appointments": [
+        {"id": 5004, "start": "2026-11-07T09:00:00Z", "service": "Follow-up review",
+         "clinician": "Dr Morgan", "status": "Completed", "note": "Follow-up complete."},
+        {"id": 5005, "start": "2026-11-08T11:15:00Z", "service": "Follow-up review",
+         "clinician": "Dr Morgan", "status": "Pending", "note": ""}
+      ]
+    },
+    {
+      "id": 1007, "name": "Priya Shah", "age": 24, "contact": "priya@example.com",
+      "category": "Emergency", "detail": "Awaiting urgent assessment",
+      "appointments": []
+    },
+    {
+      "id": 1003, "name": "Maya Bennett", "age": 19, "contact": "maya@example.com",
+      "category": "General", "detail": "Walk-in consultation",
+      "appointments": [
+        {"id": 5006, "start": "2026-11-08T10:30:00Z", "service": "General consultation",
+         "clinician": "Dr Morgan", "status": "Cancelled", "note": ""}
+      ]
+    },
+    {
+      "id": 1002, "name": "Noah Clarke", "age": 23, "contact": "noah@example.com",
+      "category": "General", "detail": "Immunisation appointment",
+      "appointments": [
+        {"id": 5007, "start": "2026-11-08T08:45:00Z", "service": "Immunisation",
+         "clinician": "Nurse Ellis", "status": "Completed", "note": "Visit complete."}
+      ]
+    },
+    {
+      "id": 1006, "name": "Zainab Ali", "age": 21, "contact": "zainab@example.com",
+      "category": "Follow-up", "detail": "Review care plan",
+      "appointments": [
+        {"id": 5008, "start": "2026-11-08T13:30:00Z", "service": "Follow-up review",
+         "clinician": "Dr Morgan", "status": "Pending", "note": ""}
+      ]
+    },
+    {
+      "id": 1005, "name": "Elliot Chen", "age": 25, "contact": "elliot@example.com",
+      "category": "Emergency", "detail": "Urgent assessment requested",
+      "appointments": [
+        {"id": 5009, "start": "2026-11-08T11:00:00Z", "service": "Urgent assessment",
+         "clinician": "Dr Patel", "status": "Pending", "note": ""}
+      ]
+    },
+    {
+      "id": 1008, "name": "Samira Hassan", "age": 20, "contact": "samira@example.com",
+      "category": "General", "detail": "Routine nursing visit",
+      "appointments": []
+    }
+  ],
+  "waiting": [
+    {"patientId": 1007, "arrived": "2026-11-08T08:51:00Z"},
+    {"patientId": 1003, "arrived": "2026-11-08T08:56:00Z"},
+    {"patientId": 1006, "arrived": "2026-11-08T09:03:00Z"}
+  ]
+}
